@@ -1,4 +1,4 @@
-## What's up Kangerss
+## What's up Kangers
 
 import os
 from os import getenv
@@ -24,7 +24,7 @@ GROUP_SUPPORT = getenv("GROUP_SUPPORT", "movie_sector")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "The_Devloper_Network")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("UPDATES_CHANNEL", "HEROKU_API_KEY")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1272039806 1382567771 1729585941").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1272039806 1382567771").split()))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/fc9d87ffd1c6f828eb7fc.png")
 START_PIC = getenv("START_PIC", "https://telegra.ph/file/0e08ecd6046987d5e117e.jpg")
